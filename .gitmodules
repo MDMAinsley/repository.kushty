@@ -1,0 +1,3 @@
+[submodule "nexus/plugin.program.openwizard"]
+	path = nexus/repository.kushty
+	url = https://github.com/MDMAinsley/repository.kushty
