@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="plugin.video.kushty" name="Kushty" version="1.0.0" provider-name="mdmainsley">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Kushty Add-on</summary>
+		<description lang="en">The Kushtiest add-on Kodi has seen..</description>
+		<license>GNU General Public License, v2</license>
+		<language />
+		<forum>http://forum.kodi.tv/showthread.php?tid=209948</forum>
+		<source>https://github.com/zag2me/script.hello.world</source>
+		<website>Kodi.tv</website>
+		<email>mdmainsley@gmail.com</email>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+		<news>See the GitHub source for latest Changelog!</news>
+	</extension>
+</addon><addon id="repository.kushty" name="Kushty" version="1.0.0" provider-name="MDMAinsley">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir minversion="19.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/mdmainsley/repository.kushty/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/mdmainsley/repository.kushty/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/mdmainsley/repository.kushty/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Kushty Repo</summary>
+        <description>Best Repo in the land!</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon></addons>

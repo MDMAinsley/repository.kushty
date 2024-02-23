@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kushty" name="Kushty" version="1.0.0" provider-name="MDMAinsley">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir minversion="19.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/mdmainsley/repository.kushty/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/mdmainsley/repository.kushty/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/mdmainsley/repository.kushty/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Kushty Repo</summary>
+        <description>Best Repo in the land!</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
