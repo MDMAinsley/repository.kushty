@@ -1,3 +1,6 @@
 [submodule "nexus/plugin.video.kushty"]
 	path = nexus/plugin.video.kushty
 	url = https://github.com/MDMAinsley/plugin.video.kushty
+[submodule "nexus/skin.kushty"]
+	path = nexus/skin.kushty
+	url = https://github.com/MDMAinsley/skin.kushty
