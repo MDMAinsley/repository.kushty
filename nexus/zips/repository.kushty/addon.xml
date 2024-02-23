@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.kushty" name="Kushty" version="1.0.0" provider-name="MDMAinsley">
-    <extension point="xbmc.addon.repository" name="Example Repository">
-        <dir minversion="19.0.0">
-            <info compressed="false">https://raw.githubusercontent.com/mdmainsley/repository.kushty/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/mdmainsley/repository.kushty/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/mdmainsley/repository.kushty/master/repo/zips/</datadir>
+<addon id="repository.kushty" name="Kushty Repository" version="1.0.0" provider-name="MDMAinsley">
+    <extension point="xbmc.addon.repository" name="Kushty Repository">
+        <dir minversion="20.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/mdmainsley/repository.kushty/main/nexus/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/mdmainsley/repository.kushty/main/nexus/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/mdmainsley/repository.kushty/main/nexus/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
