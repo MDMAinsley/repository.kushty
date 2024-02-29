@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.kushty" name="Kushty Repository" version="1.0.0" provider-name="MDMAinsley">
+<addon id="repository.kushty" name="Kushty Repository" version="1.0.1" provider-name="MDMAinsley">
     <extension point="xbmc.addon.repository" name="Kushty Repository">
         <dir minversion="20.0.0">
             <info compressed="false">https://raw.githubusercontent.com/mdmainsley/repository.kushty/main/nexus/zips/addons.xml</info>
